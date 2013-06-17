@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'novecento_widelight';
+    src: url('../fonts/synthview_-_novecentowide-light.eot');
+    src: url('../fonts/synthview_-_novecentowide-light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/synthview_-_novecentowide-light.woff') format('woff'),
+         url('../fonts/synthview_-_novecentowide-light.ttf') format('truetype'),
+         url('../fonts/synthview_-_novecentowide-light.svg#novecento_widelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+  background-color: #a3ddf0;
+}
+
+.page {
+  background-color: #f9fafb;
+  width: 100%;
+  margin: 0;
+  height: 600px;
+  border-bottom: 1px solid #92c6d8;
+}
+.fontcolor {
+  color: #778687;
+  text-align: center;
+}
+
+.fontcolor span {
+  font-weight: normal;
+  font-style: italic;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: normal;
+  padding-top: 50px;
+  letter-spacing: 2;
+  margin-bottom: 153px;
+  font-family: "novecento_widelight";
+}
+h2 {
+  font-size: 60px;
+  letter-spacing: 4;
+  margin-bottom: 10px;
+  font-family: verdana;
+  font-weight: normal;
+}
+h3 {
+  font-size: 15px;
+  font-weight: normal;
+  font-family: verdana;
+    letter-spacing: 3;
+}
+h4 {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  margin-top: 30px;
+  font-family: arial;
+  letter-spacing: 2;
+  font-weight: normal;
+  opacity: 0.5;
+}
+nav {
+  margin: 0 auto;
+  margin-top: 150px;
+}
+nav ul {
+  text-align: center;
+  padding: 0;
+}
+nav li {
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  height: 68px;
+  width: 67px;
+  display: inline-block;
+  margin-left: 55px;
+}
+
+nav li:first-child{
+  margin-left: 0px;
+}
+
+nav li a {
+  display: inline-block;
+  width: 67px;
+  height: 68px;
+}
+nav li a.work {
+    background: transparent url('../images/work.png') no-repeat 0 0;
+}
+nav li a.work:hover {
+  background-position: 0 -67px;
+}
+nav li a.cv {
+    background: transparent url('../images/cv.png') no-repeat 0 0;
+}
+nav li a.cv:hover {
+  background-position: 0 -67px;
+}
+nav li a.behance {
+    background: transparent url('../images/behance.png') no-repeat 0 0;
+}
+nav li a.behance:hover {
+  background-position: 0 -67px;
+}
+nav li a.twitter {
+    background: transparent url('../images/twitter.png') no-repeat 0 0;
+}
+nav li a.twitter:hover {
+  background-position: 0 -67px;
+}
+nav li a.mail {
+    background: transparent url('../images/mail.png') no-repeat 0 0;
+}
+nav li a.mail:hover {
+  background-position: 0 -67px;
+}
+
+
+
+
+
+
+
+
+
+
+
